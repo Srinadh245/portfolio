@@ -48,6 +48,8 @@ h2 {
 }
 
 .skills span:hover {
+    box-shadow: 0 10px 25px rgba(88, 166, 255, 0.2);
+    transform: translateY(-8px);
     background: #58a6ff;
     color: #0d1117;
 }
@@ -71,19 +73,51 @@ h2 {
     margin-top: 0;
     color: #58a6ff;
 }
+.viewproject {
+    background: #58a6ff;
+    color: #0d1117;
 
-/* BUTTON */
-button {
-    background: transparent;
-    color: #58a6ff;
-    border: 1px solid #58a6ff;
-    padding: 10px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.3s;
+}
+/* container stays same */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 
+/* span wrapper (optional spacing fix) */
+.skills-container span {
+    display: inline-block;
+}
+
+/* BUTTON STYLE */
+.skill-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 35px;
+    border-radius: 30px;
+    border: 1px solid #30363d;
+    color: #58a6ff;
+    font-size: 15px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT (THIS IS WHAT YOU WANT) */
+.skill-btn:hover {
+    background: #58a6ff;
+    color: #0d1117;
+    
+    /* movement */
+    transform: translateY(-6px) scale(1.05);
+
+    /* glow shadow */
+    box-shadow: 0 10px 30px rgba(88, 166, 255, 0.5);
+
+    /* smooth feel */
+    border-color: #58a6ff;
+}
 button:hover {
     background: #58a6ff;
     color: #0d1117;
