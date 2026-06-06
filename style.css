@@ -1,19 +1,53 @@
 body {
     font-family: Arial;
     margin: 0;
-    background: #f4f4f4;
+    background: #0d1117;
+    color: white;
 }
 
 header {
-    background: #333;
-    color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    background: #161b22;
 }
 
 section {
-    margin: 20px;
+    padding: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #30363d;
+    padding-bottom: 10px;
+}
+
+/* Skills */
+.skills span {
+    background: #21262d;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/* Project Cards */
+.project {
+    background: #161b22;
     padding: 20px;
-    background: white;
+    margin-top: 20px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.03);
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #238636;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
