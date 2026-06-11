@@ -1,4 +1,4 @@
-/* GLOBAL */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -6,7 +6,6 @@ body {
     color: #c9d1d9;
 }
 
-/* HEADER */
 header {
     text-align: center;
     padding: 60px 20px;
@@ -24,7 +23,6 @@ header p {
     margin-top: 10px;
 }
 
-/* SECTIONS */
 section {
     padding: 40px 10%;
 }
@@ -35,7 +33,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* SKILLS */
 .skills span {
     display: inline-block;
     background: #161b22;
@@ -54,7 +51,7 @@ h2 {
     color: #0d1117;
 }
 
-/* PROJECT CARDS */
+
 .project {
     background: #161b22;
     padding: 20px;
@@ -95,19 +92,19 @@ h2 {
 
     border-color: #58a6ff;
 }
-/* container stays same */
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
 }
 
-/* span wrapper (optional spacing fix) */
+
 .skills-container span {
     display: inline-block;
 }
 
-/* BUTTON STYLE */
+
 .skill-btn {
     text-decoration: none;
     display: inline-block;
@@ -120,19 +117,26 @@ h2 {
     transition: all 0.3s ease;
 }
 
-/* 🔥 HOVER EFFECT (THIS IS WHAT YOU WANT) */
 .skill-btn:hover {
     background: #58a6ff;
     color: #0d1117;
     
-    /* movement */
+  
     transform: translateY(-6px) scale(1.05);
 
-    /* glow shadow */
+
     box-shadow: 0 10px 30px rgba(88, 166, 255, 0.5);
 
-    /* smooth feel */
+
     border-color: #58a6ff;
+}
+.profile-pic{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid rgb(20, 18, 18);
+    margin-bottom:15px;
 }
 button:hover {
     background: #58a6ff;
